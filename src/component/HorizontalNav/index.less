@@ -1,0 +1,22 @@
+@import '../../styles/color.less';
+
+.c-horizontalNav-menu {
+}
+.c-horizontalNav-menu-item {
+    height: 35px;
+    font-size: 14px;
+    margin-top: 0px !important; 
+    color: @color-grey-light;
+    display: flex !important;
+    align-items: center;
+    cursor: pointer;
+}
+.c-horizontalNav-menu-item:hover {
+    color: @primary-color;
+}
+.c-horizontalNav-menu-item_selected {
+    .c-horizontalNav-menu-item(); 
+    box-sizing: border-box;
+    border-bottom:3px solid @primary-color;
+    font-weight: 500;
+}

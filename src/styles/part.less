@@ -1,0 +1,152 @@
+/***********************************
+  **         局部公共样式          **
+  *********************************/
+@import './color.less';
+  
+/**************    @卡片-START 🐱  ****************/
+.block-card {
+  background-color: @card-background;
+  border-radius: 5px;
+  .block-card-header {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: @block-header-background;
+  }
+  
+  .block-card-table {
+    .block-card-table_tr {
+      display: flex;
+      padding: 5px 10px;
+      color: @color-grey-light;
+      font-size: 12px;
+    }
+    .block-card-table_th {
+      display: flex;
+      padding: 5px 10px;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+}
+/**************    @卡片-END     ****************/
+
+/**************    @颜色-START 🌈  ***************/
+.color-999 {
+  color: #999;
+}
+.red {
+  color: #e3595d;
+}
+.green {
+  color: #00ad8f;
+}
+.primary-color {
+  color: @primary-color !important;
+}
+.white {
+  color: #fff;
+}
+.bg-down-light {
+  background: rgba(227,89,93,.15)!important;
+}
+.bg-up-light {
+  background: rgba(0,173,143,.15)!important;
+}
+.text-light {
+  color: @color-grey-light !important;
+}
+/**************    @颜色-END    *****************/
+
+/**************    @TAG-START 🦁️ ****************/
+html {
+  .tag-samll {
+    border-radius: 4px;
+    font-size: 12px;
+    height: 15px;
+    line-height: 13px;
+    padding: 0 5px;
+    display: inline-block;
+    box-sizing: border-box;
+
+  }
+  .tag-samll-type_1 {
+    .tag-samll();
+    background: transparent;
+    border: 1px solid @primary-color;
+    color: @primary-color;
+
+  }
+  .tag-samll-type_2 {
+    .tag-samll();
+    border: 1px solid transparent;
+    color: @primary-color;
+    background: rgba(249,156,3,.15);
+  }
+}
+/**************    @TAG-END    ****************/
+
+/**************    @字体-START 📒  **************/
+html {
+  // @text-type
+  .text-type-1 {
+    font-size: 12px;
+    color: #fff;
+  }
+  .typo-text-2 {
+    font-weight: 500!important;
+    font-size: 14px;
+    color: #fff;
+  }
+  .text-type-1-light {
+    font-size: 12px;
+    color: hsla(0,0%,100%,.6);
+  }
+  
+
+  // @line-height
+  .lh-15 {
+    line-height: 15px;
+  }
+  .lh-20 {
+    line-height: 20px;
+  }
+  // @font-weight
+  .fw-500 {
+    font-weight: 500;
+  }
+  // 方向
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+}
+/**************    @字体-END    ****************/
+
+/**************    @按钮-START   **************/
+html {
+  // @text-type
+  .button-type-1 {
+    border: 1px solid @color-grey-light;
+    border-radius: 5px;
+    color: @color-grey-light;
+  }
+  .button-type-1_fill {
+    border: 1px solid @primary-color;
+    border-radius: 5px;
+    color: @primary-color;
+  }
+}
+/**************    @按钮-END    ****************/
+
+
+
+
+
+
+
+

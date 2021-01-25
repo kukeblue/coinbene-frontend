@@ -1,0 +1,83 @@
+@import '../../styles/color.less';
+.exchange-page {
+    width: 100%;
+    height: 100%;
+    background: @page-background;
+    padding: 4px;
+    .virtualcoin-list {
+        height: 500px;
+        overflow-y: auto;
+    }
+    .entrust-list {
+        height: 500px;
+        overflow-y: auto;
+        margin-left: 5px;
+        .entrust-selectButton {
+            color: #fff;
+            padding: 4px 8px;
+            border: 1px solid rgba(124,136,160,.34);
+            border-radius: 3px;
+        }
+    }
+    .virtualcoin-klineChart {
+        height: 500px;
+        margin-left: 5px;
+        .coin-icon {
+            width: 32px;
+            height: auto;
+        }
+        .coin-name {
+            color: #FFFFFF;
+        }
+        .timeFilter {
+            .timeFilter-item {
+                width: 60px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+        .virtualcoin-hold-info {
+            width: 100%;
+            height: 70px;
+            border-top: 5px solid @page-background;
+        }
+    }
+    .exchange-record {
+        height: 255px;
+    }
+    .exchange-record-tabbar {
+    }
+    .exchange-record-table {
+        margin-top: 5px;
+        background-color: @page-background;
+        .ant-table-cell {
+            font-size: 12px;
+            font-weight: 400;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            color: #fff;
+            border: 0px;
+            background-color: @card-background;
+        }
+        .ant-table-cell:hover {
+            background-color: @page-background;
+        }
+        .ant-table-empty {
+            background-color: @card-background !important;
+        }
+       
+    }
+    .exchange-action {
+        margin-left: 5px;
+    }
+    .sort-contro {
+        font-size: 10px !important;
+    }
+    .ant-table-placeholder:hover td {
+        background-color: @page-background !important;
+    }
+
+}
+
+

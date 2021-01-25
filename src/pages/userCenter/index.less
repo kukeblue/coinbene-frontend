@@ -1,0 +1,101 @@
+.userCenter-page {
+    overflow: hidden;
+    min-height: 800px;
+    background-color: #f5f7f9;
+    .contentBox {
+        overflow: hidden;
+        width: 1280px;
+        max-width: 1280px;
+        margin: 40px auto 0;
+    }
+    .contentBox-side {
+        width: 220px;
+        height: 903px;
+        background-color: #fff;
+        .side-title-icon {
+            width: 20px;
+            height: auto;
+            margin-right: 5px;
+        }
+        .side-title {
+            padding-left: 25px;
+            font-size: 14px;
+            text-align: left;
+            height: 50px;
+            color: #7c88a0;
+            border-bottom: 1px solid #edeff4;
+        }
+        .side-menu {
+            height: 35px;
+            padding-left: 50px;
+            margin-top: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #354052;
+            font-weight: 400;
+        }
+        .side-menu:hover {
+            background-color: rgba(245,187,5,.1);
+        }
+        .side-menu_active {
+            .side-menu();
+            -webkit-box-shadow: inset 2px 0 0 0 #f5bb05;
+            box-shadow: inset 2px 0 0 0 #f5bb05;
+            background-color: rgba(245,187,5,.1);
+            overflow: hidden;
+            color: #f5bb05;
+        }
+    }
+    .contentBox-body {
+        width: 1050px;
+        height: 1074px;
+        background-color: #fff;
+        .contentBox-body-title {
+            width: 100%;
+            height: 50px;
+            padding-left: 20px;
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #354052;
+            text-align: left;
+            border-radius: 2px;
+            -webkit-box-shadow: 0 2px 10px 0 #edeff4;
+            box-shadow: 0 2px 10px 0 #edeff4;
+        }
+        .contentBox-form-item {
+            width: 100%;
+            font-size: 14px;
+            line-height: 20px;
+            color: #222;
+            padding-left: 20px;
+            line-height: 20px;
+            .icon {
+                padding: 20px 0px;
+            }
+            .lable {
+                width: 100px;
+            }
+        }
+        .has-mail {
+            color: #10a876;
+            background-color: rgba(16,168,118,.1);
+            border: 1px solid rgba(16,168,118,.5);
+            min-width: 36px;
+            height: 18px;
+            padding: 0 18px;
+            border-radius: 2px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .contentBox-form-item_content {
+            flex: 1;
+            padding: 20px 0px;
+            margin-left: 15px;
+            border-bottom: 1px dashed #e7ecf0;
+        }
+    }
+    
+    
+
+}

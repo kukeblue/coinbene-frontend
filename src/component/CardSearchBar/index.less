@@ -1,0 +1,19 @@
+@import '../../styles/color.less';
+
+.c-cardSearchBar {
+    width: 100%;
+}
+
+.c-cardSearchBar-input {
+    border-radius: 5px;
+    background-color: @layout-header-background;
+    border: 1px solid rgba(124,136,160,.34);
+    .ant-input {
+        background-color: @layout-header-background;
+        color: #fff;
+    }
+    .ant-input::placeholder {
+        font-size: 12px;
+        color: @color-grey-light;
+    }   
+}
